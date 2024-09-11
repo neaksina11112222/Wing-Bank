@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #b4cb06;
+}
+form{
+
+    width: 70%;
+    display: flex;
+    margin: auto;
+    margin-top: 3%;
+    
+}
+aside{
+    font-weight: bold;
+    flex: 5;
+    background: #fff;
+}
+section{
+    display: flex;
+    /* background:#0077fe; */
+ 
+    flex: 5;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+form .container{
+    padding: 5%;
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+    margin-top: 30px;
+
+}
+ 
+.input-group{
+    font-family: sans-serif;
+    color: #0077fe;
+    box-sizing: border-box;
+}
+ 
+.input-group input{
+    padding: 10px;
+    width: 100%;
+    margin-top: 5%;
+}
+section .left-form{
+   
+padding: 10px;
+width: 50px;
+
+ 
+}
+section .right-form{
+    width:100%;
+    background: #fff;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+}
+section .right-form img{
+    height:100%;
+    width: 100%;
+    
+}
+form aside .container a{
+    display: flex;
+    justify-content: end;
+    padding: 5px;
+    color: #0077fe;
+    font-weight: bold;
+}
+button{
+    padding: 12px 39px;
+    font-weight: bold;
+     margin-left:38%;
+     background:#b4cb06;
+     border: none;
+     border-radius: 12px;
+    color: #fff;
+    font-weight: bold;
+}
+.logo img{
+    width:40%;
+    margin-left: 30%;
+}
+aside h1{
+    margin-top: 5%;
+    text-align: center;
+    font-weight: bold;
+    color: #0077fe;
+}
+.line{
+    display: flex;
+     text-align: center;
+     gap: 4px;
+     justify-content: center;
+     margin-top:22px;
+}
+.line1{
+    width: 160px;
+    height: 1vh;
+   background:#0077fe;
+}
+.line2{
+    width: 40px;
+    height: 3vh;
+   background:#0077fe;
+}
+.cycle{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+   background:#0077fe;
+   padding:1%;
+   position: relative;
+
+bottom: 12px;
+}
+h1{
+    text-align: center;
+    margin-top: 5%;
+    padding: 10px;
+    color: #0077fe;
+
+}
